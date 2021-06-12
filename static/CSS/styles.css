@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(84, 114, 114);
+}
+
+.akanform {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-size: x-large;
+}
+
+.table {
+    background-image: url(/static/images/bg.jpg);
+    width: 55vw;
+    padding: 35px;
+    font-size: large;
+}
+
+td {
+    border: 1px solid black;
+}
