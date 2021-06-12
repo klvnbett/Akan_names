@@ -19,61 +19,103 @@
             <p>These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
             <p><a href="https://en.wikipedia.org/wiki/Main_Page">click me </a> for more about akan naming </p>
         </div>
-        <div>
-            <table class="table">
-                <thead>
-                    <tr>
+        <div class="akanform">
+            <div class="col-xl-8">
 
-                        <th scope="col">DAY</th>
-                        <th scope="col">MALE</th>
-                        <th scope="col">FEMALE</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
+                <table class="table">
+                    <thead>
+                        <tr>
 
-                        <td>sunday</td>
-                        <td>Kwasi</td>
-                        <td>Akosua</td>
-                    </tr>
-                    <tr>
+                            <th scope="col">DAY</th>
+                            <th scope="col">MALE</th>
+                            <th scope="col">FEMALE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
 
-                        <td>Monday</td>
-                        <td>Kwadwo</td>
-                        <td>Adwoa</td>
-                    </tr>
-                    <tr>
+                            <td>sunday</td>
+                            <td>Kwasi</td>
+                            <td>Akosua</td>
+                        </tr>
+                        <tr>
 
-                        <td>Tuesday</td>
-                        <td>Kwabena</td>
-                        <td> Abenaa</td>
-                    </tr>
-                    <tr>
+                            <td>Monday</td>
+                            <td>Kwadwo</td>
+                            <td>Adwoa</td>
+                        </tr>
+                        <tr>
 
-                        <td>Wednesday</td>
-                        <td>Kwaku</td>
-                        <td>Akua</td>
-                    </tr>
-                    <tr>
+                            <td>Tuesday</td>
+                            <td>Kwabena</td>
+                            <td> Abenaa</td>
+                        </tr>
+                        <tr>
 
-                        <td>Thursday</td>
-                        <td>Yaw</td>
-                        <td>Yaa</td>
-                    </tr>
-                    <tr>
+                            <td>Wednesday</td>
+                            <td>Kwaku</td>
+                            <td>Akua</td>
+                        </tr>
+                        <tr>
 
-                        <td>Friday</td>
-                        <td>Kofi</td>
-                        <td>Afua</td>
-                    </tr>
-                    <tr>
+                            <td>Thursday</td>
+                            <td>Yaw</td>
+                            <td>Yaa</td>
+                        </tr>
+                        <tr>
 
-                        <td>Saturday</td>
-                        <td>Kwame</td>
-                        <td>Ama</td>
-                    </tr>
-                </tbody>
-            </table>
+                            <td>Friday</td>
+                            <td>Kofi</td>
+                            <td>Afua</td>
+                        </tr>
+                        <tr>
+
+                            <td>Saturday</td>
+                            <td>Kwame</td>
+                            <td>Ama</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-xl-4 first-col">
+                <form name="form" class="form" onsubmit="formValidate()">
+                    <h2>Get your Akan Name and Day of Birth here</h2>
+                    <h3>Enter your details here</h3>
+                    <div class="form-group">
+                        <label for="number">Year of Birth:</label>
+                        <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="month">Month of Birth:</label>
+                        <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date of Birth:</label>
+                        <input type="number" class="form-control" id="date" placeholder="Day of Birth eg 05 for May" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="month">Gender</label><br>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                      </label>
+
+                        </div>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                      </label>
+
+                        </div>
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox"> Remember me
+                    </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="findName()">Submit</button>
+                </form>
+                </div>
+            </div>
         </div>
 
     </div>
