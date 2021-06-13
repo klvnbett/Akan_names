@@ -10,5 +10,22 @@ function formValidate() {
     var gender = document.getElementById("gender");
     if (document.form.year.value = "" || document.form.year.length != 4 || document.form.year.value > 2100 || document.form.year.value <= 1900) {
         alert("kindly provide a valid year")
+        document.form.year.focus();
+        return false; //focu is used here to analyse the year
+    } else if (document.form.month.value ==
+        "" || isNaN(document.form.month.value) ||
+        document.form.length != 2 || document.form.month.value > 12 || document.form.month.value <= 0) {
+        alert("valid month should be entered");
+        document.form.month.focus();
+        return false;
+    } else if (document.form.date.value == "" || isNAN(document.form.date.value) || document.form.date.value.length != 2 || document.form.date > 31 || document.form.date.value <= 0) {
+        alert(" Enter valid Day");
+        document.form.day.focus();
+        return false;
+    } else if (genders[0].checked == false && genders[1].checked == false) {
+        alert("select Gender");
+        return false;
+    } else {
+        return true;
     }
 }
