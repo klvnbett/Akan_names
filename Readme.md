@@ -2,33 +2,39 @@
     - Akan Names
 
 ## Project description
-    - Generate Akan names
+     This is a web application that is used to Generate Akan names according to the day they were born.
+     it  is a naming convention in Ghana that has beenused traditionlly.
   
 
 ## Author(s) information
-    - Gideon
+ Bett Kelvin
   
 ## Setup instructions
-    - 
+    I used visual studio code
+    github
+    
+
 
 ## BDD
-    As a user, I would like to;
-
-    - See a  small description of what the application does on the landing page. 
-    - Enter my birthday through a form
-    - Choose what gender I am.
-    - Click the submit button to see what my Akan name would be
+   The application requires the user to fill in the details of their birth in the form.
+   User also input the Gender on the form.
+   After Entering  birthday through a form the system calculates th day of the week the user was born.
+   Click the submit button to see what my Akan name would be
   
 ## Live link
-    Deployed project can be accessed here -  [Akan Names Generator](https://gmaroko.github.io/akan-name/)
+    Deployed project can be accessed here -  [Akan Names Generator](https://klvnbett.github.io/Akan_names/)
 
 ## Technologies used
     - HTML
     - CSS
     - JS
+    - Bootstrap
   
 ## Contact information
-    - Your contact info
+    - Bett Kelvin.
+Email [mail](klvnbett@gmail.com)
+### Live Site
+ View [live](https://klvnbett.github.io/Akan_names/)
   
 ## License and Copyright information
     Copyright 2021 Bett Kelvin
