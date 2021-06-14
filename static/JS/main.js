@@ -18,7 +18,7 @@ function formValidate() {
         alert("valid month should be entered");
         document.form.month.focus();
         return false;
-    } else if (document.form.date.value == "" || isNAN(document.form.date.value) || document.form.date.value.length != 2 || document.form.date > 31 || document.form.date.value <= 0) {
+    } else if (document.form.date.value == "" || isNAN(document.form.month.value) || document.form.month.value.length != 2 || document.form.date > 31 || document.form.date.value <= 0) {
         alert(" Enter valid Day");
         document.form.day.focus();
         return false;
