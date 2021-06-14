@@ -1,15 +1,21 @@
 body {
     background-color: rgb(84, 114, 114);
-    background-image: url(/static/images/bkg.jpeg);
+    background-image: url(../images/bkg.jpeg);
+    height: 100vh;
     background-size: cover;
+    background-position: center;
+    position: absolute;
+    padding: 0;
+    margin: 0;
     /* text-align: center; */
 }
 
 .description {
-    background-image: url(/static/images/bg1.jpeg);
+    /* background-image: url("static/images/bg1.jpeg"); */
     background-size: cover;
     color: white;
     padding: 26px;
+    background-position: center;
 }
 
 .akanform {
