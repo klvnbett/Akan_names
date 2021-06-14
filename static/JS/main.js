@@ -48,8 +48,55 @@ function getGender() {
 
     } else if (genders[1].checked == true) {
         var gender = "female";
-        else {
-            return false;
-        }
+    } else {
+        return false;
     }
+    switch (gender) {
+        case "male":
+            if (dayValue == 1) {
+                alert("Your AKAN Name is " + maleNames[0] + "." + "since you were born on " + weekDays[0]);
+            }
+            if (dayValue == 2) {
+                alert("Your AKAN Name is " + maleNames[1] + "." + "since you were born on " + weekDays[1]);
+            }
+            if (dayValue == 3) {
+                alert("Your AKAN Name is " + maleNames[2] + "." + "since you were born on " + weekDays[2]);
+            }
+            if (dayValue == 4) {
+                alert("Your AKAN Name is " + maleNames[3] + "." + "since you were born on " + weekDays[3]);
+            }
+            if (dayValue == 5) {
+                alert("Your AKAN Name is " + maleNames[4] + "." + "since you were born on " + weekDays[4]);
+            }
+            if (dayValue == 6) {
+                alert("Your AKAN Name is " + maleNames[5] + "." + "since you were born on " + weekDays[5]);
+            }
+            if (dayValue == -0) {
+                alert("Your AKAN Name is " + maleNames[6] + "." + "since you were born on " + weekDays[6]);
+            }
+            break;
+        case "female":
+            if (dayValue == 1) {
+                alert("Your AKAN Name is " + femaleNames[0] + "." + "since you were born on " + weekDays[0]);
+            }
+            if (dayValue == 2) {
+                alert("Your AKAN Name is " + femaleNames[1] + "." + "since you were born on " + weekDays[1]);
+            }
+            if (dayValue == 3) {
+                alert("Your AKAN Name is " + femaleNames[2] + "." + "since you were born on " + weekDays[2]);
+            }
+            if (dayValue == 4) {
+                alert("Your AKAN Name is " + femaleNames[3] + "." + "since you were born on " + weekDays[3]);
+            }
+            if (dayValue == 5) {
+                alert("Your AKAN Name is " + femaleNames[4] + "." + "since you were born on " + weekDays[4]);
+            }
+            if (dayValue == 6) {
+                alert("Your AKAN Name is " + femaleNames[5] + "." + "since you were born on " + weekDays[5]);
+            }
+            if (dayValue == -0) {
+                alert("Your AKAN Name is " + femaleNames[6] + "." + "since you were born on " + weekDays[6]);
+            }
+    }
+
 }
