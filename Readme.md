@@ -31,10 +31,10 @@
     - Bootstrap
   
 ## Contact information
-    - Bett Kelvin.
-Email [mail](klvnbett@gmail.com)
+     -Bett Kelvin.
+     -Email:klvnbett@gmail.com
 ### Live Site
- View [live](https://klvnbett.github.io/Akan_names/)
+[live](https://klvnbett.github.io/Akan_names/)
   
 ## License and Copyright information
     Copyright 2021 Bett Kelvin
