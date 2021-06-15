@@ -8,10 +8,10 @@ var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 function formValidate() {
     var gender = document.getElementById("gender");
-    if (document.form.year.value = "" || document.form.year.length != 4 || document.form.year.value > 2100 || document.form.year.value <= 1900) {
-        alert("kindly provide a valid year")
+    if (document.form.year.value == "" || document.form.year.value.length != 4 || document.form.year.value > 2100 || document.form.year.value <= 1900) {
+        alert("enter valid year");
         document.form.year.focus();
-        return false; //focu is used here to analyse the year
+        return false; //focus is used here to analyse the year
     } else if (document.form.month.value ==
         "" || isNaN(document.form.month.value) ||
         document.form.length != 2 || document.form.month.value > 12 || document.form.month.value <= 0) {
